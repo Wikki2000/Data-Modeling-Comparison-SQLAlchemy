@@ -21,22 +21,22 @@ Each approach is examined with practical examples using a Company and Members mo
 ```
 
 ## Brief Description
--  Data Type: array_example.py demonstrates how to use SQLAlchemy's ARRAY data type for storing lists of members directly in a single table.
--  Separate Tables: separate_tables_example.py shows how to implement a normalized schema with separate tables for companies and their members.
--  Dictionaries: dictionary_example.py illustrates how to use a JSON-like column to store complex member data.
+-  <b>Data Type</b>: array_example.py demonstrates how to use SQLAlchemy's ARRAY data type for storing lists of members directly in a single table.
+-  <b>Separate Tables</b>: separate_tables_example.py shows how to implement a normalized schema with separate tables for companies and their members.
+-  <b>Dictionaries</b>: dictionary_example.py illustrates how to use a JSON-like column to store complex member data.
 
 ## Pros and Cons
 ### Using ARRAY Data Type
-- Pros: Simpler schema; easier management for small datasets.
-- Cons: Harder to enforce constraints; inefficient with large arrays.
+- <b>Pros</b>: Simpler schema; easier management for small datasets.
+- <b>Cons</b>: Harder to enforce constraints; inefficient with large arrays.
 
 ### Using Separate Tables
-- Pros: More normalized; easier to enforce constraints; flexible for complex queries.
-- Cons: More complex schema; slightly more complex queries.
+- <b>Pros</b>: More normalized; easier to enforce constraints; flexible for complex queries.
+- <b>Cons<b>: More complex schema; slightly more complex queries.
 
 ### Using Dictionary
-- Pros: Flexible for detailed attributes; easier updates without schema changes.
-- Cons: Complex with nested structures; harder to enforce constraints.
+- <b>Pros</b>: Flexible for detailed attributes; easier updates without schema changes.
+- <b>Cons</b>: Complex with nested structures; harder to enforce constraints.
 
 ## Blog Post
 For a detailed analysis and examples, check out the blog post: [ARRAY vs. Separate Tables vs. Dictionary for SQLAlchemy Data Modeling](https://medium.com/@wisdomokposin/array-vs-separate-tables-vs-dictionary-in-sqlalchemy-24e62b05b85e).
