@@ -39,4 +39,4 @@ Each approach is examined with practical examples using a Company and Members mo
 - Cons: Complex with nested structures; harder to enforce constraints.
 
 ## Blog Post
-For a detailed analysis and examples, check out the blog post:[ARRAY vs. Separate Tables vs. Dictionary for SQLAlchemy Data Modeling](https://medium.com/@wisdomokposin/array-vs-separate-tables-vs-dictionary-in-sqlalchemy-24e62b05b85e).
+For a detailed analysis and examples, check out the blog post: [ARRAY vs. Separate Tables vs. Dictionary for SQLAlchemy Data Modeling](https://medium.com/@wisdomokposin/array-vs-separate-tables-vs-dictionary-in-sqlalchemy-24e62b05b85e).
